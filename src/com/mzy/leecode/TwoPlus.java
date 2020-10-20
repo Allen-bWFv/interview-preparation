@@ -16,6 +16,12 @@ public class TwoPlus {
         System.out.println(listNode);
     }
 
+    /**
+     * 这里需要考虑几种情况的，就是进位后导致后一位超过10
+     * @param l1
+     * @param l2
+     * @return
+     */
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         if (l1 != null || l2 != null){
